@@ -10,6 +10,10 @@ A smart contract is **an agreement between two people or entities in the form of
 
 Smart contracts are executed on blockchain, which means that the terms are stored in a distributed database and cannot be changed. Transactions are also processed on the blockchain, which automates payments and counterparties. Since the emergence of the digital currency Ethereum, the creation and execution of smart contracts has been simplified, as complex transactions can be programmed into the Ethereum protocol.
 
+{% hint style="info" %}
+Some of these tutorials in the next lessons maybe deprecate or not include yet!
+{% endhint %}
+
 ### Explain Solidity language
 
 Solidity is **an object-oriented programming language created specifically by the Ethereum Network team for constructing and designing smart contracts on Blockchain platforms**.
