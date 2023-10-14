@@ -12,7 +12,7 @@ contract ExampleContract {
 
 In the above example, the require statement ensures that the argument a must be greater than b. If this is not the case, an error is thrown.
 
-* Example 1 Let's take a look at a simple example of using require to check if a certain value is greater than 0.
+* **Example 1** Let's take a look at a simple example of using require to check if a certain value is greater than 0.
 
 ```solidity
 function checkValue(uint value) public {    
@@ -22,11 +22,14 @@ function checkValue(uint value) public {
 
 In this example, the require statement checks if the value passed to the function is greater than 0. If the value is not greater than 0, the require statement will cause the code to revert and the function will not execute.
 
-* Example 2 Let's look at another example of using require to check if two values are equal.
+* **Example 2** Let's look at another example of using require to check if two values are equal.
 
-function checkValues(uint value1, uint value2) public {&#x20;
-
-require(value1 == value2); // code executes if value1 is equal to value2}
+```solidity
+function checkValues(uint value1, uint value2) public { 
+    require(value1 == value2); 
+    // code executes if value1 is equal to value2
+}
+```
 
 &#x20;In this example, the require statement checks if the two values passed to the function are equal. If the values are not equal, the require statement will cause the code to revert and the function will not execute.
 
