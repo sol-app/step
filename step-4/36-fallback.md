@@ -4,7 +4,7 @@
 
 The `fallback()` function is a special function in Solidity that is used to define a default behavior if no other functions have been called. It is triggered when a contract receives a transaction or message call and no other functions match the given _**signature**_.
 
-* Example 1 The following example shows a fallback() function that logs a warning message when called.
+* **Example 1** The following example shows a fallback() function that logs a warning message when called.
 
 ```solidity
 contract MyContract {   
@@ -15,7 +15,7 @@ contract MyContract {
 }
 ```
 
-* Example 2 The following example shows a fallback() function that reverts any calls to it with a warning message.
+* **Example 2** The following example shows a fallback() function that reverts any calls to it with a warning message.
 
 ```solidity
 contract MyContract {    
@@ -25,7 +25,7 @@ contract MyContract {
 }
 ```
 
-* Example 3 The following example shows a fallback() function that accepts any incoming funds and stores them in an account balance.
+* **Example 3** The following example shows a fallback() function that accepts any incoming funds and stores them in an account balance.
 
 ```solidity
 contract MyContract {    
@@ -44,7 +44,7 @@ The `fallback()` function is a special function in Solidity that can be used to 
 
 Here are some examples of how it can be used:
 
-* Example 1 In this example, we will use the fallback function to send any Ether that is sent to the contract to the calling address.
+* **Example 1** In this example, we will use the fallback function to send any Ether that is sent to the contract to the calling address.
 
 ```solidity
 contract FallbackExample {    
@@ -57,7 +57,7 @@ contract FallbackExample {
 }
 ```
 
-* Example 2 In this example, we will use the fallback function to increase the balance of the calling address by 10% of the amount that was sent to the contract.
+* **Example 2** In this example, we will use the fallback function to increase the balance of the calling address by 10% of the amount that was sent to the contract.
 
 ```solidity
 contract FallbackExample {    
@@ -70,7 +70,7 @@ contract FallbackExample {
 }
 ```
 
-* Example 3 In this example, we will use the fallback function to execute an arbitrary function when a transaction is sent to the contract.
+* **Example 3** In this example, we will use the fallback function to execute an arbitrary function when a transaction is sent to the contract.
 
 ```solidity
 contract FallbackExample {    
