@@ -2,7 +2,7 @@
 
 The super keyword is used to access the functions and members of the parent class in Solidity. It is similar to `this` keyword in other languages.
 
-* Example 1
+* **Example 1**
 
 ```solidity
 contract A {    
@@ -17,7 +17,7 @@ contract B is A {
 }
 ```
 
-* Example 2
+* **Example 2**
 
 ```solidity
 contract A {    
