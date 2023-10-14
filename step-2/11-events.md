@@ -4,7 +4,7 @@ Events in Solidity allow you to trigger actions based on specific conditions, an
 
 Example:
 
-```
+```solidity
 event Transfer(address indexed _from, address indexed _to, uint256 _value);
 ```
 
