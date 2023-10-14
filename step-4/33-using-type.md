@@ -14,7 +14,7 @@ This will return uint256, as myInteger is declared as a uint256 variable.
 * **Example 2**
 
 ```solidity
-string myString = Hello World; 
+string myString = "Hello World"; 
 type(myString);
 ```
 
@@ -23,7 +23,7 @@ This will return string, as myString is declared as a string variable.
 * **Example 3**
 
 ```solidity
-mapping(uint256 = uint256) myMapping; 
+mapping(uint256 => uint256) myMapping; 
 type(myMapping);
 ```
 
