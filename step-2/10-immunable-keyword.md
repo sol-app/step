@@ -6,9 +6,9 @@ The constant keyword is used to declare a state variable as a constant. It is im
 
 A constant can also be declared with the view or pure keyword, which allows functions to access the constant without changing its value.
 
-constant in function scoop was depricated.
+**constant in function scoop was **_**deprecated**_**.**
 
-Example:
+**Example**:
 
 ```solidity
 contract MyContract {    
@@ -26,7 +26,7 @@ In the above example, tokenTotalSupply is declared as a constant and its value i
 
 The immutable keyword is a powerful tool in Solidity that allows developers to create data that is protected from tampering. It is a way to ensure that stored data is safe and secure, and that it cannot be changed without explicit authorization.
 
-Example #1
+* Example #1
 
 Consider the following code:
 
@@ -42,7 +42,7 @@ contract MyContract {
 
 In this example, the immutable keyword is used to declare a public variable myNumber. This means that the value of myNumber can be read by anyone, but it cannot be changed without using the setMyNumber function.
 
-Example #2
+* Example #2
 
 Now consider the following code:
 
