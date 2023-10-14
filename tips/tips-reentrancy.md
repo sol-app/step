@@ -2,9 +2,9 @@
 
 ### Reentrancy
 
-Reentrancy is a type of vulnerability that occurs when a contract calls an external contract, and then the external contract calls the first contract again before the first contract has finished executing. This can lead to unexpected behavior, such as an infinite loop, or the transfer of funds.
+**Reentrancy** is a type of vulnerability that occurs when a contract calls an external contract, and then the external contract calls the first contract again before the first contract has finished executing. This can lead to unexpected behavior, such as an infinite loop, or the transfer of funds.
 
-* Example 1 In this example, we have a contract called Wallet that stores funds and can be used to make payments.
+* **Example 1** In this example, we have a contract called Wallet that stores funds and can be used to make payments.
 
 ```solidity
 contract Wallet {  
@@ -35,7 +35,7 @@ contract Wallet {
 
 The vulnerability arises when we use the pay function to call an external contract, and that external contract calls the Wallet contract again before the pay function is finished executing.
 
-* Example 2 In this example, we have a contract called Voting that stores votes and can be used to tally the results.
+* **Example 2** In this example, we have a contract called Voting that stores votes and can be used to tally the results.
 
 ```solidity
 contract Voting {  
@@ -101,7 +101,7 @@ In the example above, the require() function checks the boolean variable reentra
 
 ### Reentrancy Hack
 
-* Example 1 The following shows a vulnerable contract which can be exploited through reentrancy attack.
+* **Example 1** The following shows a vulnerable contract which can be exploited through reentrancy attack.
 
 ```solidity
 contract Reentrancy {    
@@ -122,7 +122,7 @@ contract Reentrancy {
 
 In the above example, the attacker can deposit some funds and then call the withdrawFunds function. Before the function completes, the attacker can call the depositFunds function again and then withdraw the funds again. This process can be repeated until all the funds are drained from the contract.
 
-* Example 2 The following is an example of a contract which is protected from reentrancy attack.
+* **Example 2** The following is an example of a contract which is protected from reentrancy attack.
 
 ```solidity
 contract Reentrancy {    
