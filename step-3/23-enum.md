@@ -55,7 +55,7 @@ The import Enum statement allows you to make use of an existing enum type, in or
 
 In this article, we'll look at a few examples of how to use import Enum to give your contracts access to a predefined set of constants.
 
-* Example 1: Importing an Enum from Another Contract Let's say we have a contract called MyContract, and we want to use an enum type from another contract. We can do this using the following statement:
+* **Example 1**: Importing an Enum from Another Contract Let's say we have a contract called MyContract, and we want to use an enum type from another contract. We can do this using the following statement:
 
 ```solidity
 import "./OtherContract.sol"; 
@@ -70,7 +70,7 @@ contract MyContract {
 
 In this example, we're importing an enum type from the OtherContract contract, and then using it to define a Color enum in our MyContract contract. We can then use this enum to set the color variable to one of the three predefined colors.
 
-* Example 2: Importing an Enum from a Library We can also use an import Enum statement to give our contract access to an enum type defined in a library. For example, let's say we have a library called MyLib, which defines a Direction enum:
+* **Example 2**: Importing an Enum from a Library We can also use an import Enum statement to give our contract access to an enum type defined in a library. For example, let's say we have a library called MyLib, which defines a Direction enum:
 
 ```solidity
 library MyLib {   
@@ -93,7 +93,7 @@ contract MyContract {
 
 In this example, we're using the using statement to give our contract access to the Direction enum type defined in the MyLib library. We can then use this enum type to set the direction variable to one of the four predefined directions.
 
-* Example 3: Importing an Enum from an External Source Finally, we can also use an import Enum statement to give our contract access to an enum type defined in an external source. For example, let's say we want to use the Weekday enum defined in the Ethereum Foundation's Solidity Standard Library:
+* **Example 3**: Importing an Enum from an External Source Finally, we can also use an import Enum statement to give our contract access to an enum type defined in an external source. For example, let's say we want to use the Weekday enum defined in the Ethereum Foundation's Solidity Standard Library:
 
 ```solidity
 import "ethereum/solidity-stdlib/Weekday.sol"; 
