@@ -21,11 +21,13 @@ This can only be accessed from within the same contract.
 
 This can only be accessed from outside of the contract.
 
+***
+
 Examples\
 Let's look at a few examples of visibility in action.
 
-Public\
-Here's an example of a public variable:
+* Public\
+  Here's an example of a public variable:
 
 ```solidity
 contract MyContract {    
@@ -35,8 +37,8 @@ contract MyContract {
 
 This variable can be accessed from within the contract, as well as from other contracts and externally.
 
-Internal\
-Here's an example of an internal variable:
+* Internal\
+  Here's an example of an internal variable:
 
 ```solidity
 contract MyContract {    
@@ -46,8 +48,8 @@ contract MyContract {
 
 This variable can only be accessed from within the same contract, or from contracts that inherit from it.
 
-Private\
-Here's an example of a private variable:
+* Private\
+  Here's an example of a private variable:
 
 ```solidity
 contract MyContract {    
@@ -57,8 +59,8 @@ contract MyContract {
 
 This variable can only be accessed from within the same contract.
 
-External\
-Finally, here's an example of an external function:
+* External\
+  Finally, here's an example of an external function:
 
 ```solidity
 contract MyContract {    
@@ -86,7 +88,7 @@ There are three visibility variables in Solidity:
 
 Here are some examples of visibility variables in Solidity:
 
-Public
+* Public
 
 ```solidity
 contract Example {  
@@ -98,7 +100,7 @@ contract Example {
 }
 ```
 
-Internal
+* Internal
 
 ```solidity
 contract Example {  
@@ -111,7 +113,7 @@ contract Example {
 }
 ```
 
-Private
+* Private
 
 ```solidity
 contract Example {  
