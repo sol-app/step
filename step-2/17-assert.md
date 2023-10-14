@@ -2,7 +2,7 @@
 
 Assert is a statement in Solidity that allows for a simple boolean condition to be checked for validity. Assert statements can help to ensure that code is executed as expected.
 
-* Example 1 In this example, we can use an Assert statement to make sure that a function is being called with the expected value:
+* **Example 1** In this example, we can use an Assert statement to make sure that a function is being called with the expected value:
 
 ```solidity
 function myFunction(uint _value) public {    
@@ -13,7 +13,7 @@ function myFunction(uint _value) public {
 
 In this example, we are using the require statement to make sure that the \_value is greater than 0. We then use the assert statement to make sure that the \_value is equal to 10.
 
-* Example 2 In this example, we can use an Assert statement to make sure that a variable is being set to the expected value:
+* **Example 2** In this example, we can use an Assert statement to make sure that a variable is being set to the expected value:
 
 ```solidity
 function myFunction(uint _value) public {    
