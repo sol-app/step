@@ -4,8 +4,10 @@ Control structures are an important part of any programming language, as they al
 
 ## Conditional Statements
 
-The most common type of control structure is the conditional statement. In Solidity, you can use the if statement to specify a condition that must be true in order for a block of code to be executed.\
-Here's an example:
+The most common type of control structure is the conditional statement. In Solidity, you can use the if statement to specify a condition that must be true in order for a block of code to be executed.
+
+\
+• example:
 
 ```solidity
 function isEven(uint256 x) public pure returns (bool) { 
@@ -84,6 +86,6 @@ function changeOwner(address newOwner) public onlyOwner {
 }
 ```
 
-In this example, we're defining a modifier called onlyOwner that checks whether the caller of the function is the owner of the contract. If the caller is the owner, the function executes normally. If not, the function throws an exception.
+In this example, we're defining a modifier called `onlyOwner` that checks whether the caller of the function is the owner of the contract. If the caller is the owner, the function executes normally. If not, the function throws an exception.
 
 _That's it for the fourth lesson! In the next lesson, State Variable_
