@@ -51,7 +51,9 @@ pragma solidity ^0.4.17;
 contract Token { 
 	mapping (address => uint) public balances; 
 	function transfer(address _to, uint _value) public { 
-		require(balances[msg.sender] >= _value); balances[msg.sender] -= _value; balances[_to] += _value; 
+		require(balances[msg.sender] >= _value); 
+		balances[msg.sender] -= _value; 
+		balances[_to] += _value; 
 	}
 }
 ```
