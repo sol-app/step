@@ -28,8 +28,14 @@ Simple Storage Contract This is a simple storage contract example that stores a 
 pragma solidity ^0.4.17; 
 contract SimpleStorage { 
 	uint storedData; 
-	function set(uint x) public { storedData = x; } 
-	function get() public view returns (uint) { return storedData; }
+	
+	function set(uint x) public { 
+		storedData = x; 
+	} 
+	
+	function get() public view returns (uint) { 
+		return storedData; 
+	}
 }
 ```
 
@@ -39,8 +45,14 @@ Payable Contract This is an example of a payable contract that allows users to s
 pragma solidity ^0.4.17; 
 contract Payable { 
 	uint storedData; 
-	function payable(uint x) public payable { storedData = x; } 
-	function get() public view returns (uint) { return storedData; }
+	
+	function payable(uint x) public payable { 
+		storedData = x; 
+	} 
+	
+	function get() public view returns (uint) { 
+		return storedData; 
+	}
 }
 ```
 
@@ -50,6 +62,7 @@ Token Contract This is an example of a token contract that allows users to trans
 pragma solidity ^0.4.17; 
 contract Token { 
 	mapping (address => uint) public balances; 
+	
 	function transfer(address _to, uint _value) public { 
 		require(balances[msg.sender] >= _value); 
 		balances[msg.sender] -= _value; 
