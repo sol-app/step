@@ -12,7 +12,7 @@ Web3: [https://github.com/sol-app](https://github.com/sol-app)
 {% endtab %}
 
 {% tab title="Linkedin" %}
-Moslem Abbasi: [https://www.linkedin.com/in/moslem-abbasi/](https://www.linkedin.com/in/moslem-abbasi/)
+Lotus Chain (CEO): [https://www.linkedin.com/in/lotus-chain/](https://www.linkedin.com/in/lotus-chain/)
 {% endtab %}
 
 {% tab title="Blog" %}
