@@ -3,7 +3,7 @@
 A factory contract is a type of smart contract used to create and deploy other smart contracts. It is used to maintain a registry of deployed contracts, as well as to provide a convenient way to access and interact with them.\
 _"A Factory Contract is a type of smart contract that allows for the deployment of multiple smart contracts from a single code base. This can be useful for developers that want to deploy many contracts with the same functionality without having to write and deploy each one separately."_
 
-* Example: ERC721 Token Factory In this example, we will be creating a factory contract to create ERC721 tokens. First, we need to define the contract interface:
+* **Example**: ERC721 Token Factory In this example, we will be creating a factory contract to create ERC721 tokens. First, we need to define the contract interface:
 
 ```solidity
 contract ERC721TokenFactory {    
