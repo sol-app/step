@@ -35,8 +35,6 @@ contract SimpleStorage {
 
 Payable Contract This is an example of a payable contract that allows users to send ether to the contract. The contract then stores the amount of ether received.
 
-***
-
 ```solidity
 pragma solidity ^0.4.17; 
 contract Payable { 
@@ -47,8 +45,6 @@ contract Payable {
 ```
 
 Token Contract This is an example of a token contract that allows users to transfer tokens between accounts.
-
-***
 
 ```solidity
 pragma solidity ^0.4.17; 
@@ -61,6 +57,14 @@ contract Token {
 ```
 
 &#x20;By using these examples, you can get started creating your own contracts in Solidity.
+
+***
+
+{% hint style="info" %}
+Using search (_**top right of window**_) : the Ai help you for your question.
+
+Ai using this website internal data.
+{% endhint %}
 
 ***
 
