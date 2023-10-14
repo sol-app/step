@@ -2,8 +2,6 @@
 
 Local variables in Solidity are variables that are defined within a function or a contract and are only accessible within the scope of that particular function or contract. They are initialized with a value when they're declared and can be changed as the code progresses. Local variables are useful for storing temporary values or intermediate results and can be declared in the same way as any other type of variable.
 
-## Example:
-
 ```solidity
 contract MyContract {    
     uint256 public count;
