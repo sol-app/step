@@ -4,7 +4,7 @@
 
 Receive is a special function in Solidity that allows contracts to receive funds from external accounts.
 
-* Example 1 Below is a simple example of how to use `receive()` to accept ether:
+* **Example 1** Below is a simple example of how to use `receive()` to accept ether:
 
 ```solidity
 contract MyContract {    // Receive Ether    
@@ -12,7 +12,7 @@ contract MyContract {    // Receive Ether
 }
 ```
 
-* Example 2 The receive function can also be used to accept tokens. Here is an example of how to receive ERC20 tokens:
+* **Example 2** The receive function can also be used to accept tokens. Here is an example of how to receive ERC20 tokens:
 
 ```solidity
 import "./token.sol"; // A standard ERC20 token 
@@ -29,7 +29,7 @@ contract MyContract {
 }
 ```
 
-* Example 3 The receive() function can also be used to accept both Ether and ERC20 tokens. Here is an example of how to do this:
+* **Example 3** The receive() function can also be used to accept both Ether and ERC20 tokens. Here is an example of how to do this:
 
 ```solidity
 import "./token.sol"; // A standard ERC20 token 
