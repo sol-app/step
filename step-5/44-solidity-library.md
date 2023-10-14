@@ -4,7 +4,7 @@ A Solidity library is a collection of code that can be reused in multiple contra
 
 Here are some examples of how to use a Solidity library:
 
-* Example 1: Encoding Suppose you have a contract that needs to encode and decode data as hexadecimal strings. You can create a library to do this, and use it in multiple contracts.
+* **Example 1**: Encoding Suppose you have a contract that needs to encode and decode data as hexadecimal strings. You can create a library to do this, and use it in multiple contracts.
 
 Here is an example of a library for hex encoding:
 
@@ -36,7 +36,7 @@ contract MyContract {
 }
 ```
 
-* Example 2: Math Suppose you need to do basic math operations in multiple contracts. You can create a library to do this, and use it in multiple contracts.
+* **Example 2**: Math Suppose you need to do basic math operations in multiple contracts. You can create a library to do this, and use it in multiple contracts.
 
 Here is an example of a library for basic math operations:
 
