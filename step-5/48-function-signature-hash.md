@@ -13,7 +13,7 @@ contract SignHash {
 }
 ```
 
-* Test
+* **Test**
 
 ```yaml
 string memory message : "getBalance(address)"
@@ -21,7 +21,7 @@ Function Name: getBalance
 Parameters: address _account
 Function Signature: 0x70a08231
 
-string memory message : "getBaltransferance(address,uint256)"
+string memory message : "transfer(address,uint256)"
 Function Name: transfer
 Parameters: address _to, uint256 _value
 Function Signature: 0xa9059cbb
@@ -38,9 +38,9 @@ contract SignHash {
 }
 ```
 
-* Example 1: Consider a contract with a function foo(). The signature of the function is foo(). The corresponding signature hash is 0x7f12a5a6.
-* Example 2: Consider a contract with a function bar(uint a, string memory b). The signature of the function is bar(uint,string). The corresponding signature hash is 0xacb08c82.
-* Example 3: Consider a contract with a function baz(address payable c, uint256 d). The signature of the function is baz(address,uint256). The corresponding signature hash is 0x8b7d828d.
+* **Example 1**: Consider a contract with a function foo(). The signature of the function is foo(). The corresponding signature hash is 0x7f12a5a6.
+* **Example 2**: Consider a contract with a function bar(uint a, string memory b). The signature of the function is bar(uint,string). The corresponding signature hash is 0xacb08c82.
+* **Example 3**: Consider a contract with a function baz(address payable c, uint256 d). The signature of the function is baz(address,uint256). The corresponding signature hash is 0x8b7d828d.
 
 Function Signature Hash A function signature hash is a unique identifier for a function in a smart contract. It is the result of taking the function parameters and hashing them together with a unique algorithm. This hash can then be used to call the function in the future.
 
