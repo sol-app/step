@@ -8,7 +8,7 @@ Keccak256 is a hashing algorithm used in Ethereum Blockchain. It is a member of 
 bytes32 hash = keccak256(abi.encode(data1, data2));
 ```
 
-* Example
+* **Example**
 
 ```solidity
 contract MyContract {    
@@ -21,24 +21,24 @@ contract MyContract {
 // output: 0x3c9229289a6125f7fdf1885a77bb12c37a8d3b4962d936f7e3084dece32a3ca1
 ```
 
-* Example 1 The following example will demonstrate how Keccak256 works:
+* **Example 1** The following example will demonstrate how Keccak256 works:
 
 Let's say we have a string Hello World and we want to hash it using Keccak256.
 
 The steps are as follows:
 
 Calculate the SHA-3 hash of the string using the Keccak-256 algorithm.\
-The result is the hash: 0x36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068
+The result is the hash: 0x36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068[^1]
 
-* Example 2 Let's take another example, this time with a hexadecimal string:
+* **Example 2** Let's take another example, this time with a hexadecimal string:
 
 Calculate the SHA-3 hash of the string 0x1234 using the Keccak-256 algorithm.\
-The result is the hash: 0x1cb9d9f0cb8f7c8b4de1b7e5b5f8c37f5ebf64a86a9f965a5db5c5b5f2f2e1e2
+The result is the hash: 0x1cb9d9f0cb8f7c8b4de1b7e5b5f8c37f5ebf64a86a9f965a5db5c5b5f2f2e1e2[^2]
 
-* Example 3 Finally, let's take an example with a longer string:
+* **Example 3** Finally, let's take an example with a longer string:
 
 Calculate the SHA-3 hash of the string Hello Ethereum! using the Keccak-256 algorithm.\
-The result is the hash: 0x7f5f5c5f25d5bcf8c25ba15f2a9f912fb5e5c4f4b3413fcee50f99a4d234c6f4
+The result is the hash: 0x7f5f5c5f25d5bcf8c25ba15f2a9f912fb5e5c4f4b3413fcee50f99a4d234c6f4[^3]
 
 #### Further Reading
 
@@ -70,3 +70,9 @@ console.log(address);
 ```
 
 _That's it for the lesson 47! In the next lesson, Function Signature Hash_
+
+[^1]: 
+
+[^2]: 
+
+[^3]: 
