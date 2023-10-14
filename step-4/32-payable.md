@@ -6,7 +6,7 @@ Payable is a keyword in Solidity that enables a function to receive Ether. When 
 
 #### Examples of Payable
 
-* Example 1 This is an example of a payable function:
+* E**xample 1** This is an example of a payable function:
 
 ```solidity
 function sendEther() public payable {    // Function body}
@@ -14,7 +14,7 @@ function sendEther() public payable {    // Function body}
 
 In this example, the `sendEther()` function is declared as a payable function, meaning that it can receive Ether from external calls.
 
-* Example 2 This is an example of a payable function with a value parameter:
+* **Example 2** This is an example of a payable function with a value parameter:
 
 ```solidity
 function sendEther(uint256 value) public payable {    // Function body}
@@ -53,7 +53,7 @@ Payable types are a special type of data in Solidity that allows for sending Eth
 
 #### Examples
 
-* Example 1: Sending Ether to the Contract The following example shows how to use the payable keyword to allow users to send Ether to a contract.
+* **Example 1**: Sending Ether to the Contract The following example shows how to use the payable keyword to allow users to send Ether to a contract.
 
 ```solidity
 contract ExampleContract {    
@@ -67,7 +67,7 @@ In the above code, the `fallback()` is marked as payable. This means that users 
 
 **Tips**: function() in oldest version, like fallback() in newst versions
 
-* Example 2: Sending Ether from the Contract The following example shows how to use the `payable` keyword to allow a contract to send Ether to a user.
+* **Example 2**: Sending Ether from the Contract The following example shows how to use the `payable` keyword to allow a contract to send Ether to a user.
 
 ```solidity
 contract ExampleContract {    
