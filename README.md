@@ -24,7 +24,18 @@ Create by Example Creating a contract in solidity involves writing functions and
 
 Simple Storage Contract This is a simple storage contract example that stores a single value:
 
-pragma solidity ^0.4.17; contract SimpleStorage { uint storedData; function set(uint x) public { storedData = x; } function get() public view returns (uint) { return storedData; \}} Payable Contract This is an example of a payable contract that allows users to send ether to the contract. The contract then stores the amount of ether received.
+```
+pragma solidity ^0.4.17; 
+contract SimpleStorage { 
+	uint storedData; 
+	function set(uint x) public { storedData = x; } 
+	function get() public view returns (uint) { return storedData; }
+}
+```
+
+Payable Contract This is an example of a payable contract that allows users to send ether to the contract. The contract then stores the amount of ether received.
+
+***
 
 pragma solidity ^0.4.17; contract Payable { uint storedData; function payable(uint x) public payable { storedData = x; } function get() public view returns (uint) { return storedData; \}} Token Contract This is an example of a token contract that allows users to transfer tokens between accounts.
 
