@@ -24,7 +24,7 @@ Create by Example Creating a contract in solidity involves writing functions and
 
 Simple Storage Contract This is a simple storage contract example that stores a single value:
 
-```
+```solidity
 pragma solidity ^0.4.17; 
 contract SimpleStorage { 
 	uint storedData; 
@@ -37,9 +37,30 @@ Payable Contract This is an example of a payable contract that allows users to s
 
 ***
 
-pragma solidity ^0.4.17; contract Payable { uint storedData; function payable(uint x) public payable { storedData = x; } function get() public view returns (uint) { return storedData; \}} Token Contract This is an example of a token contract that allows users to transfer tokens between accounts.
+```solidity
+pragma solidity ^0.4.17; 
+contract Payable { 
+	uint storedData; 
+	function payable(uint x) public payable { storedData = x; } 
+	function get() public view returns (uint) { return storedData; }
+}
+```
 
-pragma solidity ^0.4.17; contract Token { mapping (address => uint) public balances; function transfer(address \_to, uint \_value) public { require(balances\[msg.sender] >= \_value); balances\[msg.sender] -= \_value; balances\[\_to] += \_value; \}} By using these examples, you can get started creating your own contracts in Solidity.
+Token Contract This is an example of a token contract that allows users to transfer tokens between accounts.
+
+***
+
+```solidity
+pragma solidity ^0.4.17; 
+contract Token { 
+	mapping (address => uint) public balances; 
+	function transfer(address _to, uint _value) public { 
+		require(balances[msg.sender] >= _value); balances[msg.sender] -= _value; balances[_to] += _value; 
+	}
+}
+```
+
+&#x20;By using these examples, you can get started creating your own contracts in Solidity.
 
 ***
 
