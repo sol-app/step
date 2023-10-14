@@ -4,7 +4,7 @@
 
 Calling other contracts is an important part of writing Solidity code. It enables you to interact with smart contracts on the Ethereum blockchain from other contracts. In this article, we'll explore a few examples of contract-to-contract interaction and the various ways of calling other contracts.
 
-* Example 1: Calling a Function from Another Contract The most basic way to call a function from another contract is to use the delegatecall keyword. This allows you to call a function from another contract and have the code execute in the context of the calling contract.
+* **Example 1**: Calling a Function from Another Contract The most basic way to call a function from another contract is to use the delegatecall keyword. This allows you to call a function from another contract and have the code execute in the context of the calling contract.
 
 Let's look at a simple example. We have two contracts, ContractA and ContractB. ContractA wants to call a function in ContractB:
 
@@ -23,7 +23,7 @@ contract ContractB {
 
 In this example, ContractA calls a function in ContractB using the delegatecall keyword. The delegatecall keyword takes a single argument, which is the function signature of the function to be called. In this example, we are calling the foo() function, so we pass in the function signature as an argument.
 
-* Example 2: Calling a Function from Another Contract with a Return Value In the previous example, we saw how to call a function from another contract without a return value. But sometimes you may want to call a function from another contract and get a return value. To do this, we can use the call keyword.
+* **Example 2**: Calling a Function from Another Contract with a Return Value In the previous example, we saw how to call a function from another contract without a return value. But sometimes you may want to call a function from another contract and get a return value. To do this, we can use the call keyword.
 
 Let's look at a simple example. We have two contracts, ContractA and ContractB. ContractA wants to call a function in ContractB and get a return value:
 
